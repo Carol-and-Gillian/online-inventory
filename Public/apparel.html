@@ -1,11 +1,60 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <title>Apparel</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../src/ItemList.css">
 </head>
 <body>
 
-<h1>Hi!</h1>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">St. Mark's Online Bookstore</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a onclick="window.location.href='index.html'">Home</a></li>
+                <li><a href="#about">Authors</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sections <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a onclick="window.location.href='apparel.html'">Apparel</a></li>
+                        <li><a onclick="window.location.href='snack.html'">Snacks</a></li>
+                        <li><a onclick="window.location.href='stationary.html'">Stationary</a></li>
+                        <li><a onclick="window.location.href='books.html'">Textbook</a></li>
+                        <li><a onclick="window.location.href='others.html'">Others</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+<div class="row placeholders">
+    <div class="col-xs-6 col-sm-3 placeholder">
+        <img src="http://cdn.shopify.com/s/files/1/0277/0693/products/apparel-cosmos-tee-1_large.jpg?v=1480339965"
+             width="200" height="200" class="img-responsive" alt="">
+        <h4>Item</h4>
+        <span class="text-muted">Short Description for Item</span>
+    </div>
+</div>
+
+<div class="itemPlaceHolder">
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </body>
 </html>
