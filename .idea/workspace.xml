@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61bab8aa-4fa3-49a2-b747-bb21f13f3178" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/WebstormProjects/HI/.idea/vcs.xml" />
-      <change type="MOVED" beforePath="$USER_HOME$/WebstormProjects/HI/.idea/HI.iml" afterPath="$USER_HOME$/WebstormProjects/HI/.idea/React Online Bookstore.iml" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/WebstormProjects/HI/.idea/workspace.xml" afterPath="$USER_HOME$/WebstormProjects/HI/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="61bab8aa-4fa3-49a2-b747-bb21f13f3178" name="Default" comment="" />
     <ignored path="$USER_HOME$/WebstormProjects/HI/.tmp/" />
     <ignored path="$USER_HOME$/WebstormProjects/HI/temp/" />
     <ignored path="$USER_HOME$/WebstormProjects/HI/tmp/" />
@@ -22,31 +18,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/WebstormProjects/React Online Bookstore/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/WebstormProjects/React Online Bookstore/src/components/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+            <state relative-caret-position="150">
+              <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Apparel.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Apparel.js" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/WebstormProjects/React Online Bookstore/src/components/Apparel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="75">
+              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -64,16 +50,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/WebstormProjects/React Online Bookstore/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/WebstormProjects/React Online Bookstore/src/CSS/App.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -87,8 +63,8 @@
       <file leaf-file-name="Routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/WebstormProjects/React Online Bookstore/src/config/Routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="67" lean-forward="false" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+            <state relative-caret-position="270">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
               <folding>
                 <element signature="e#45#84#0" expanded="true" />
               </folding>
@@ -139,6 +115,8 @@
         <option value="$USER_HOME$/WebstormProjects/HI/src/components/Apparel.js" />
         <option value="$USER_HOME$/WebstormProjects/HI/public/index.html" />
         <option value="$USER_HOME$/WebstormProjects/HI/src/components/App.js" />
+        <option value="$USER_HOME$/WebstormProjects/React Online Bookstore/src/components/Apparel.js" />
+        <option value="$USER_HOME$/WebstormProjects/React Online Bookstore/src/components/App.js" />
       </list>
     </option>
   </component>
@@ -154,8 +132,8 @@
     <handled-path value="$USER_HOME$/WebstormProjects/React Online Bookstore/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="116" />
-    <option name="y" value="40" />
+    <option name="x" value="81" />
+    <option name="y" value="27" />
     <option name="width" value="1034" />
     <option name="height" value="719" />
   </component>
@@ -382,15 +360,15 @@
       <workItem from="1486483360520" duration="256000" />
       <workItem from="1487203420048" duration="3720000" />
       <workItem from="1487210403048" duration="2548000" />
-      <workItem from="1487274111089" duration="47000" />
+      <workItem from="1487274111089" duration="739000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6571000" />
+    <option name="totallyTimeSpent" value="7263000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="116" y="40" width="1034" height="719" extended-state="0" />
+    <frame x="81" y="27" width="1034" height="719" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24876603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -569,35 +547,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/WebstormProjects/React Online Bookstore/src/CSS/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/WebstormProjects/HI/src/App.test.js" />
-    <entry file="file://$USER_HOME$/WebstormProjects/React Online Bookstore/README.md">
+    <entry file="file://$USER_HOME$/WebstormProjects/React Online Bookstore/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/WebstormProjects/React Online Bookstore/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="195">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/WebstormProjects/React Online Bookstore/public/index.html">
+    <entry file="file://$USER_HOME$/WebstormProjects/React Online Bookstore/src/components/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="150">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/WebstormProjects/React Online Bookstore/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -612,10 +590,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/WebstormProjects/React Online Bookstore/src/CSS/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/WebstormProjects/React Online Bookstore/src/config/Routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="67" lean-forward="false" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+        <state relative-caret-position="270">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding>
             <element signature="e#45#84#0" expanded="true" />
           </folding>
@@ -624,16 +610,8 @@
     </entry>
     <entry file="file://$USER_HOME$/WebstormProjects/React Online Bookstore/src/components/Apparel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/WebstormProjects/React Online Bookstore/src/components/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+        <state relative-caret-position="75">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
           <folding />
         </state>
       </provider>

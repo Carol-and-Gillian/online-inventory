@@ -5,6 +5,7 @@ import {LinkContainer} from "react-router-bootstrap";
 export default class App extends Component {
   render() {
     return (
+        <div>
         <Navbar default fixedTop inverse>
             <Navbar.Header>
                 <Navbar.Brand>
@@ -15,7 +16,9 @@ export default class App extends Component {
                 <NavItem href="#">Home</NavItem>
                 <NavItem href="#">Authors</NavItem>
                 <NavDropdown title="More...">
-                   <MenuItem>Apparel</MenuItem>
+                    <LinkContainer to="/apparel">
+                        <MenuItem>Apparel</MenuItem>
+                    </LinkContainer>
                     <MenuItem >Snacks</MenuItem>
                     <MenuItem >Stationary</MenuItem>
                     <MenuItem >Textbook</MenuItem>
@@ -24,7 +27,9 @@ export default class App extends Component {
             </Nav>
         </Navbar>
 
+            {this.props.children}
 
+        </div>
     );
   }
 }
