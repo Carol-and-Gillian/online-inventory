@@ -6,6 +6,7 @@ import {Router, Route, browserHistory,IndexRoute} from 'react-router';
 
 import App from "../components/App";
 import Apparel from "../components/Apparel";
+import ItemList from "../components/ItemList";
 
 export default class Routes extends Component {
     render() {
@@ -13,7 +14,8 @@ export default class Routes extends Component {
             <Router history={browserHistory}>
                 <Route path="/" component={App}>
                     <IndexRoute to="/"/>
-                    <Route path="apparel/:id" component={Apparel}/>
+                    <Route path="apparel/:id" component={Apparel}>
+                    </Route>
                 </Route>
             </Router>
         );

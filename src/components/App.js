@@ -13,13 +13,13 @@ export default class App extends Component {
                 </Navbar.Brand>
             </Navbar.Header>
             <Nav>
-                <NavItem href="#">Home</NavItem>
-                <NavItem href="#">Authors</NavItem>
-                <NavDropdown title="More...">
-                    <LinkContainer to="/apparel">
-                        <MenuItem>Apparel</MenuItem>
+                <NavItem eventKey={1} href="#">Home</NavItem>
+                <NavItem eventKey={2} href="#">Authors</NavItem>
+                <NavDropdown eventKey={3} title="More...">
+                    <LinkContainer to="/apparel/1">
+                        <MenuItem eventKey={3.1}>Apparel</MenuItem>
                     </LinkContainer>
-                    <MenuItem >Snacks</MenuItem>
+                    <MenuItem eventKey={3.2}>Snacks</MenuItem>
                     <MenuItem >Stationary</MenuItem>
                     <MenuItem >Textbook</MenuItem>
                     <MenuItem >Others</MenuItem>

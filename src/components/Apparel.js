@@ -2,11 +2,15 @@
  * Created by gillianyue on 2/15/17.
  */
 import React, {Component} from "react";
+import {LinkContainer} from "react-router-bootstrap";
+import ItemList from "./ItemList";
 
 export default class Apparel extends Component {
     render() {
         return (
-                <p>I am the apparel page and my ID is {this.props.params.id}</p>
+            <div>
+                <ItemList/>
+            </div>
         );
     }
 }
