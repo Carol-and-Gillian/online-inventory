@@ -6,7 +6,6 @@ import {Router, Route, browserHistory,IndexRoute} from 'react-router';
 
 import App from "../components/App";
 import Apparel from "../components/Apparel";
-import ItemList from "../components/ItemList";
 
 export default class Routes extends Component {
     render() {
