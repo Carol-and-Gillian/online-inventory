@@ -15,7 +15,7 @@ export default class MainPageComponents extends Component{
             <p>Here, you can check out the products that are sold in the bookstore, find out information,
                 and even compare the products to make plans for your next visit!</p>
         </Jumbotron>
-            
+
             <Carousel>
                 <Carousel.Item>
                    <center> <img height={500}

@@ -30,9 +30,7 @@ export default class App extends Component {
             </Nav>
         </Navbar>
 
-            <MainPageComponents/>
-
-            {this.props.children}
+            {(this.props.children==null ? <MainPageComponents/> : this.props.children)}
 
         </div>
     );
