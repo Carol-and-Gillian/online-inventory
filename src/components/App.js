@@ -2,7 +2,8 @@ import React, {Component} from 'react';
 import { Navbar, NavItem, NavDropdown, MenuItem, Nav} from 'react-bootstrap';
 import {LinkContainer} from "react-router-bootstrap";
 
-import '../../CSS/Style.css';
+import MainPageComponents from "./MainPage";
+import '../../src/CSS/Style.css';
 
 export default class App extends Component {
   render() {
@@ -15,7 +16,7 @@ export default class App extends Component {
                 </Navbar.Brand>
             </Navbar.Header>
             <Nav>
-                <NavItem eventKey={1} href="#">Home</NavItem>
+                <NavItem eventKey={1}>Home</NavItem>
                 <NavItem eventKey={2} href="#">Authors</NavItem>
                 <NavDropdown eventKey={3} id="foo" title="More...">
                     <LinkContainer to="/apparel/1">
@@ -28,6 +29,8 @@ export default class App extends Component {
                 </NavDropdown>
             </Nav>
         </Navbar>
+
+            <MainPageComponents/>
 
             {this.props.children}
 
