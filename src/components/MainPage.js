@@ -12,8 +12,9 @@ export default class MainPageComponents extends Component{
         <div>
         <Jumbotron>
             <h1>Welcome to St. Mark's School's Bookstore!!</h1>
-            <p>Here, you can check out the products that are sold in the bookstore, find out information,
-                and even compare the products to make plans for your next visit!</p>
+           <p>Here, you can check out the products that are sold in the bookstore,
+                find out information,
+               and even compare the products to make plans for your next visit!</p>
         </Jumbotron>
 
             <Carousel>

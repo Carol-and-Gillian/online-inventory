@@ -3,6 +3,7 @@
  */
 import React, {Component} from "react";
 import {Grid, Row, Col, Image} from "react-bootstrap";
+import "../../src/CSS/ItemList.css";
 
 export default class ItemList extends Component {
     render() {
@@ -13,9 +14,7 @@ export default class ItemList extends Component {
                       <Col xs={6} md={4}>
                           <Image src="/img/placeholderT.jpg" circle />
                       </Col>
-                      <Col xs={6} md={4}>
-                          <Image src="/img/placeholderT.jpg" thumbnail />
-                      </Col>
+
                   </Row>
               </Grid>
           </div>

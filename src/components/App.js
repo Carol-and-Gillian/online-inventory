@@ -12,7 +12,7 @@ export default class App extends Component {
         <Navbar default fixedTop inverse>
             <Navbar.Header>
                 <Navbar.Brand>
-                    <a href="#">St. Mark's Online Bookstore</a>
+                    <a href="">St. Mark's Online Bookstore</a>
                 </Navbar.Brand>
             </Navbar.Header>
             <Nav>
