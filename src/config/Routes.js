@@ -15,14 +15,14 @@ export default class Routes extends Component {
                     <IndexRoute to="/"/>
                     <Route path="apparel/:id" component={Apparel}>
                     </Route>
-             /*       <Route path="snacks/:id" component={Apparel}>
+                    <Route path="snacks/:id" component={Apparel}>
                     </Route>
                     <Route path="stationary/:id" component={Apparel}>
                     </Route>
                     <Route path="textbook/:id" component={Apparel}>
                     </Route>
                     <Route path="others/:id" component={Apparel}>
-                    </Route> */
+                    </Route>
                 </Route>
             </Router>
         );

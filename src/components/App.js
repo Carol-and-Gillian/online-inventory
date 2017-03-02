@@ -19,13 +19,21 @@ export default class App extends Component {
                 <NavItem eventKey={1}>Home</NavItem>
                 <NavItem eventKey={2} href="#">Authors</NavItem>
                 <NavDropdown eventKey={3} id="foo" title="More...">
-                    <LinkContainer to="/apparel/1">
+                    <LinkContainer to="/apparel/general">
                         <MenuItem eventKey={3.1}>Apparel</MenuItem>
                     </LinkContainer>
+                    <LinkContainer to="/snacks/general">
                     <MenuItem eventKey={3.2}>Snacks</MenuItem>
+                    </LinkContainer>
+                        <LinkContainer to="/stationary/general">
                     <MenuItem eventKey={3.3}>Stationary</MenuItem>
+                        </LinkContainer>
+                            <LinkContainer to="/textbook/general">
                     <MenuItem eventKey={3.4}>Textbook</MenuItem>
+                            </LinkContainer>
+                                <LinkContainer to="/others/general">
                     <MenuItem eventKey={3.5}>Others</MenuItem>
+                                </LinkContainer>
                 </NavDropdown>
             </Nav>
         </Navbar>
