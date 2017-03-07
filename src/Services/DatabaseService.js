@@ -15,20 +15,25 @@ class DatabaseService {
     }
 
     /**
-    itemImage = {
+     itemImage = {
        1: <img src="/img/placeholderT.jpg" alt="sweatshirt"> ,
        2: <img src="/img/kitkiat.png" alt="kitkat">
     }
-**/
+     **/
 
-     itemPrice = {
-               1: '20',
-               2: '3',
-               3: '2000',
-               4: '2',
-               5: '50',
-               6: '30'
+    itemPrice = {
+        1: '20',
+        2: '3',
+        3: '2000',
+        4: '2',
+        5: '50',
+        6: '30'
 
+    }
+
+    itemDescription = {
+        1: 'this amazing gray shirt is amazing!',
+        2: 'kit kat is good for your health!'
     }
 
     getName(id) {
@@ -39,15 +44,15 @@ class DatabaseService {
         }
     }
 
-/**
-    getImg(id) {
+    /**
+     getImg(id) {
         if (id in this.itemImage) {
             return this.itemImage[id];
         } else {
             return undefined;
         }
     }
-**/
+     **/
 
     getPrice(id) {
         if (id in this.itemPrice) {
@@ -56,6 +61,16 @@ class DatabaseService {
             return undefined;
         }
     }
+
+
+    getDescription(id) {
+        if (id in this.itemDescription) {
+            return this.itemDescription[id];
+        } else {
+            return undefined;
+        }
+    }
+
 }
 
 export default new DatabaseService();

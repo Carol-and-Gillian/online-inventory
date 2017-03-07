@@ -8,7 +8,8 @@ export default class Apparel extends Component {
     render() {
         return (
             <div>
-                <ItemList/>
+                <ItemList id="1"/>
+                <ItemList id="2"/>
                 <p>This apparel item {this.props.params.id}</p>
             </div>
         );
