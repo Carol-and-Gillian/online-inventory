@@ -12,11 +12,11 @@ export default class App extends Component {
         <Navbar default fixedTop inverse>
             <Navbar.Header>
                 <Navbar.Brand>
-                    <a href="">St. Mark's Online Bookstore</a>
+                    <a href="/">St. Mark's Online Bookstore</a>
                 </Navbar.Brand>
             </Navbar.Header>
             <Nav>
-                <NavItem eventKey={1}>Home</NavItem>
+                <NavItem href="/" eventKey={1}>Home</NavItem>
                 <NavItem eventKey={2} href="#">Authors</NavItem>
                 <NavDropdown eventKey={3} id="foo" title="More...">
                     <LinkContainer to="/apparel/general">

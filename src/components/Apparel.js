@@ -3,14 +3,24 @@
  */
 import React, {Component} from "react";
 import ItemList from "./ItemList";
+import {Row} from "react-bootstrap";
 
 export default class Apparel extends Component {
+
+
     render() {
         return (
             <div>
-                <ItemList id="1"/>
-                <ItemList id="2"/>
-                <p>This apparel item {this.props.params.id}</p>
+                <Row>
+                <ItemList itemNum={1}/>
+                <ItemList itemNum={2}/>
+                    <ItemList itemNum={3}/>
+                    <ItemList itemNum={4}/>
+                </Row>
+                    <Row>
+                     <ItemList itemNum={5}/>
+                    </Row>
+              
             </div>
         );
     }

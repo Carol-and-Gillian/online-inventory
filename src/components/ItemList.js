@@ -2,7 +2,7 @@
  * Created by gillianyue on 2/15/17.
  */
 import React, {Component} from "react";
-import {Image, Popover, OverlayTrigger, Button} from "react-bootstrap";
+import {Grid, Col, Row, Image, Popover, OverlayTrigger, Button} from "react-bootstrap";
 import "../../src/CSS/ItemList.css";
 import ds from "../../src/Services/DatabaseService";
 
@@ -10,20 +10,23 @@ import ds from "../../src/Services/DatabaseService";
 
 export default class ItemList extends Component {
     render() {
-       // let myID = ;
         return (
-          <div className="col-md-2 col-xs-12" id="item">
-                          <Image className="itemPreview" src="/img/placeholderT.jpg" circle />
+
+          <Col xs={6} md={3} id="item">
+              <Row>
+                          <Image className="itemPreview" src={ds.getImageRoute(this.props.itemNum)} circle />
+              </Row>
+              <Row>
 
                         <OverlayTrigger trigger={['hover', 'focus']} placement="bottom"
                                         overlay={<Popover id="popover-trigger-hover-focus"
-                                                          title={'Price: $'+ ds.getPrice(1)}>
-                                            <strong>  </strong> {ds.getDescription()}
+                                                          title={'Price: $'+ ds.getPrice(this.props.itemNum)}>
+                                            <strong>  </strong> {ds.getDescription(this.props.itemNum)}
                                         </Popover>}>
-                            <Button id="itemButton"> {ds.getName()} </Button>
+                            <Button id="itemButton"> {ds.getName(this.props.itemNum)} </Button>
                         </OverlayTrigger>
-
-          </div>
+              </Row>
+          </Col>
         );
     }
 }

@@ -14,12 +14,14 @@ class DatabaseService {
         6: 'Waterbottle'
     }
 
-    /**
-     itemImage = {
-       1: <img src="/img/placeholderT.jpg" alt="sweatshirt"> ,
-       2: <img src="/img/kitkiat.png" alt="kitkat">
+
+     itemImageRoute = {
+       1: '/img/Apparel/placeholderT.jpg',
+       2: '/img/Snacks/kitkat.png',
+         3: '/img/Snacks/twizzlers.png',
+         4: '/img/Stationary/eraser.png',
+         5: '/img/Book/odyssey.png'
     }
-     **/
 
     itemPrice = {
         1: '20',
@@ -32,8 +34,11 @@ class DatabaseService {
     }
 
     itemDescription = {
-        1: 'this amazing gray shirt is amazing!',
-        2: 'kit kat is good for your health!'
+        1: 'This amazing gray shirt is amazing!',
+        2: 'Kit kat is good for your health!',
+        3: 'Try this strawberry liquorice that contains neither strawberry nor liquorice!',
+        4: 'Keep writing and erasing on the math test to pretend you actually know something!',
+        5: 'At least you do not need to go through an Odyssey to get the Odyssey!'
     }
 
     getName(id) {
@@ -44,15 +49,14 @@ class DatabaseService {
         }
     }
 
-    /**
-     getImg(id) {
-        if (id in this.itemImage) {
-            return this.itemImage[id];
+
+     getImageRoute(id) {
+        if (id in this.itemImageRoute) {
+            return this.itemImageRoute[id];
         } else {
             return undefined;
         }
     }
-     **/
 
     getPrice(id) {
         if (id in this.itemPrice) {
