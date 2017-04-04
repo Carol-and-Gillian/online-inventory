@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { Navbar, NavItem, NavDropdown, MenuItem, Nav} from 'react-bootstrap';
 import {LinkContainer} from "react-router-bootstrap";
+import ThreeTest from './ThreeTest';
 
 import MainPageComponents from "./MainPage";
 import '../../src/CSS/Style.css';
@@ -39,6 +40,8 @@ export default class App extends Component {
         </Navbar>
 
             {(this.props.children==null ? <MainPageComponents/> : this.props.children)}
+
+            <ThreeTest/>
 
         </div>
     );

@@ -20,7 +20,7 @@ export default class Apparel extends Component {
                     <Row>
                      <ItemList itemNum={5}/>
                     </Row>
-              
+
             </div>
         );
     }
