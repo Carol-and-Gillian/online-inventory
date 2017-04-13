@@ -20,7 +20,7 @@ const Monkey = ({ position, rotation }) => <group
     </mesh>
 </group>;
 
-Robot.propTypes = {
+Monkey.propTypes = {
     position: PropTypes.instanceOf( Vector3 ).isRequired,
     rotation: PropTypes.instanceOf( Euler ).isRequired,
 }

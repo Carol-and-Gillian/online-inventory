@@ -23,7 +23,7 @@ export default class MainPageComponents extends Component{
                 <LinkContainer to="/apparel/general">
                 <Carousel.Item>
                  <center>   <img height={500}
-                                 alt="500x500" src="/img/sweatshirt.png"/>
+                                 alt="500x500" src="/img/Apparel/sweatshirt.png"/>
                    </center>
                     <Carousel.Caption>
                         <h3>Find Awesome Apparels.</h3>
@@ -34,7 +34,7 @@ export default class MainPageComponents extends Component{
                 </LinkContainer>
 
                 <Carousel.Item>
-                    <center>   <img height={500} alt="500" src="/img/snacks.png"/>
+                    <center>   <img height={500} alt="500" src="/img/Snacks/snacks.png"/>
                     </center>
                     <Carousel.Caption>
                         <h3>Explore a Variety of Tastiness.</h3>
@@ -42,7 +42,7 @@ export default class MainPageComponents extends Component{
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <center>    <img height={500} alt="500" src="/img/stationary.png"/>
+                    <center>    <img height={500} alt="500" src="/img/Stationary/stationary.png"/>
                     </center>
                     <Carousel.Caption>
                         <h3>Store up Pens and Erasers!</h3>
@@ -50,7 +50,7 @@ export default class MainPageComponents extends Component{
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <center>     <img height={500} alt="500" src="/img/book.png"/>
+                    <center>     <img height={500} alt="500" src="/img/Book/book.png"/>
                     </center>
                     <Carousel.Caption>
                         <h3>Find your textbook!</h3>

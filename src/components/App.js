@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import { Navbar, NavItem, NavDropdown, MenuItem, Nav} from 'react-bootstrap';
 import {LinkContainer} from "react-router-bootstrap";
-import Simple from '../Container/GameContainer';
 
 import MainPageComponents from "./MainPage";
 import '../../src/CSS/Style.css';
+import GameContainer from '../Container/GameContainer';
 
 export default class App extends Component {
   render() {

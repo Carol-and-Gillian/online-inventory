@@ -6,7 +6,6 @@ import THREE, { Vector3, } from 'three';
 import autobind from 'autobind-decorator';
 
 import Game from '../components/Game';
-import './Game.scss';
 import { loadModel, } from '../Utils/utils';
 
 // Load our simple functions that manage scene/game state
@@ -57,14 +56,14 @@ export default class GameContainer extends Component {
     }
 
     // We autobind methods using this decorator to get hot reloading
-    @autobind
+    //@autobind
     requestGameLoop() {
 
         this.reqAnimId = window.requestAnimationFrame( this.gameLoop );
 
     }
 
-    @autobind
+    //@autobind
     cancelGameLoopGameLoop() {
 
         window.cancelAnimationFrame( this.reqAnimId );
@@ -73,7 +72,8 @@ export default class GameContainer extends Component {
 
     // Our game loop, which is managed as the window's requestAnimationFrame
     // callback
-    @autobind
+
+   // @autobind
     gameLoop( time ) {
 
         if( !this.mounted ) {
@@ -87,10 +87,10 @@ export default class GameContainer extends Component {
         // Apply our reducer functions to the "game state", which for this
         // example is held in local container state. It could be moved into
         // a redux/flux store and udpated once per game loop.
-        const newState = robotMovementReducer( oldState, time );
+      //  const newState = robotMovementReducer( oldState, time );
 
-        this.setState( newState );
-
+     //   this.setState( newState );
+        this.setState(oldState);
     }
 
     render() {

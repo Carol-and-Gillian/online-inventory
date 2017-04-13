@@ -37,12 +37,7 @@ export default class Game extends Component {
           //  antialias
         >
             <resources>
-             /*   <texture
-                    resourceId="robotImage"
-                    url={ require( '../../assets/sitepoint-robot-texture.jpg' ) }
-                    anisotropy={ 16 }
-                />
-                */
+
                 <meshPhongMaterial
                     resourceId="monkeyTexture"
                     side={ DoubleSide }
