@@ -56,14 +56,14 @@ export default class GameContainer extends Component {
     }
 
     // We autobind methods using this decorator to get hot reloading
-    //@autobind
+    @autobind
     requestGameLoop() {
 
         this.reqAnimId = window.requestAnimationFrame( this.gameLoop );
 
     }
 
-    //@autobind
+    @autobind
     cancelGameLoopGameLoop() {
 
         window.cancelAnimationFrame( this.reqAnimId );
@@ -73,7 +73,7 @@ export default class GameContainer extends Component {
     // Our game loop, which is managed as the window's requestAnimationFrame
     // callback
 
-   // @autobind
+   @autobind
     gameLoop( time ) {
 
         if( !this.mounted ) {
