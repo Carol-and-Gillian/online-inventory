@@ -9,7 +9,7 @@ import Game from '../components/Game';
 import { loadModel, } from '../Utils/utils';
 
 // Load our simple functions that manage scene/game state
-//import robotMovementReducer from '../game-reducers/robotMovementReducer';
+import robotMovementReducer from '../../game-reducers/robotMovementReducer';
 
 /**
  * Our "container" component. See https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.jwywi6ltw
@@ -87,10 +87,9 @@ export default class GameContainer extends Component {
         // Apply our reducer functions to the "game state", which for this
         // example is held in local container state. It could be moved into
         // a redux/flux store and udpated once per game loop.
-      //  const newState = robotMovementReducer( oldState, time );
+        const newState = robotMovementReducer( oldState, time );
 
-     //   this.setState( newState );
-        this.setState(oldState);
+        this.setState( newState );
     }
 
     render() {
@@ -112,8 +111,8 @@ export default class GameContainer extends Component {
                     cameraPosition={ cameraPosition }
                     lookAt={ lookAt }
                     geometry={ geometry }
-                    robotPosition={ robotPosition }
-                    robotRotation={ robotRotation }
+                    monkeyPosition={ robotPosition }
+                    monkeyRotation={ robotRotation }
                 /> : 'Loading' }
         </div>;
 

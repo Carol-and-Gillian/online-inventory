@@ -17,15 +17,15 @@ export default class Game extends Component {
         cameraPosition: PropTypes.instanceOf( Vector3 ).isRequired,
         lookAt: PropTypes.instanceOf( Vector3 ).isRequired,
         geometry: PropTypes.instanceOf( Geometry ).isRequired,
-        robotPosition: PropTypes.instanceOf( Vector3 ).isRequired,
-        robotRotation: PropTypes.instanceOf( Euler ).isRequired,
+        monkeyPosition: PropTypes.instanceOf( Vector3 ).isRequired,
+        monkeyRotation: PropTypes.instanceOf( Euler ).isRequired,
     }
 
     render() {
 
         const {
-            width, height, cameraPosition, geometry, lookAt, robotPosition,
-            robotRotation
+            width, height, cameraPosition, geometry, lookAt, monkeyPosition,
+            monkeyRotation
         } = this.props;
 
         const { faces, vertices, faceVertexUvs, } = geometry;
@@ -34,7 +34,7 @@ export default class Game extends Component {
             mainCamera="camera"
             width={ width }
             height={ height }
-          //  antialias
+            antialias
         >
             <resources>
 
@@ -68,8 +68,8 @@ export default class Game extends Component {
                     color={ 0xdddddd }
                 />
                 <Monkey
-                    position={ robotPosition }
-                    rotation={ robotRotation }
+                    position={ monkeyPosition }
+                    rotation={ monkeyRotation }
                 />
             </scene>
         </React3>;
