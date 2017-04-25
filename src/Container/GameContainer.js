@@ -39,7 +39,7 @@ export default class GameContainer extends Component {
 
         // Load the geometry in didMount, which is only executed server side.
         // Note we can pass our JSON file paths to webpack!
-        loadModel( require( '../../public/monkey.json' ) ).then( geometry =>
+        loadModel( require( '../../build/assets/sitepoint-robot copy.json' ) ).then( geometry =>
             this.setState({ geometry })
         );
 
@@ -98,7 +98,7 @@ export default class GameContainer extends Component {
         const height = window.innerHeight;
 
         const {
-            cameraPosition, geometry, lookAt, robotPosition, robotRotation,
+            cameraPosition, geometry, lookAt, monkeyPosition, monkeyRotation,
         } = this.state;
 
         // Pass the data <Game /> needs to render. Note we don't show the game
@@ -111,8 +111,8 @@ export default class GameContainer extends Component {
                     cameraPosition={ cameraPosition }
                     lookAt={ lookAt }
                     geometry={ geometry }
-                    monkeyPosition={ robotPosition }
-                    monkeyRotation={ robotRotation }
+                    monkeyPosition={ monkeyPosition }
+                    monkeyRotation={ monkeyRotation }
                 /> : 'Loading' }
         </div>;
 
