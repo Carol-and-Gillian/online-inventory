@@ -4,7 +4,7 @@ import {LinkContainer} from "react-router-bootstrap";
 
 import MainPageComponents from "./MainPage";
 import '../../src/CSS/Style.css';
-import GameContainer from '../Container/GameContainer';
+import RenderContainer from '../Container/RenderContainer';
 
 export default class App extends Component {
   render() {
@@ -41,8 +41,9 @@ export default class App extends Component {
 
             {(this.props.children==null ? <MainPageComponents/> : this.props.children)}
 
-            <GameContainer/>
-
+            <div>
+                <RenderContainer model="suzanne"/>
+            </div>
         </div>
     );
   }
