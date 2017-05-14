@@ -43,6 +43,7 @@ export default class App extends Component {
 
             <div>
                 <RenderContainer model="book"/>
+                <RenderContainer model="eraser"/>
             </div>
         </div>
     );
