@@ -40,17 +40,18 @@ export default class Render extends Component {
                 antialias
             >
                 <resources>
-                    <texture
-                        resourceId="modelImage"
-                        url={'assets/' + this.props.model + '-texture.jpg'}
-                        anisotropy={16}
-                    />
-                    <meshPhongMaterial
-                        resourceId="modelTexture"
+                      <texture
+                    resourceId="modelImage"
+                    url={"assets/" + this.props.model + "-texture.png"}
+                    anisotropy={2}
+                />
+
+                    <meshPhongMaterial resourceId="modelTexture"
                         side={DoubleSide}
                     >
                         <textureResource resourceId="modelImage"/>
                     </meshPhongMaterial>
+
                     <geometry
                         resourceId="modelGeometry"
                         faces={faces}

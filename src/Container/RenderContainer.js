@@ -18,7 +18,7 @@ export default class RenderContainer extends Component {
          * file rather than being hard-coded into the container.
          */
         this.state = {
-            cameraPosition: new Vector3(0, 0, 3),
+            cameraPosition: new Vector3(0, 0, 5),
             lookAt: new Vector3(0, 0, 0)
         }
     }
@@ -120,6 +120,7 @@ export default class RenderContainer extends Component {
                         model={this.props.model}
                         modelPosition={modelPosition}
                         modelRotation={modelRotation}
+                        aurl={this.props.aurl}
                     /> :
                     /*
                      * completely full, striped progress bar -- a.k.a. barber pole -- indicating action but not a
