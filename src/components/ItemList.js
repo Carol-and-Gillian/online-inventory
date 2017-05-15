@@ -5,7 +5,7 @@ import React, {Component} from "react";
 import {Grid, Col, Row, Image, Popover, OverlayTrigger, Button} from "react-bootstrap";
 import "../../src/CSS/ItemList.css";
 import ds from "../../src/Services/DatabaseService";
-
+import {LinkContainer} from "react-router-bootstrap";
 
 
 export default class ItemList extends Component {
@@ -23,7 +23,10 @@ export default class ItemList extends Component {
                                                           title={'Price: $'+ ds.getPrice(this.props.itemNum)}>
                                             <strong>  </strong> {ds.getDescription(this.props.itemNum)}
                                         </Popover>}>
-                            <Button id="itemButton"> {ds.getName(this.props.itemNum)} </Button>
+                            <LinkContainer to={ds.getName(this.props.itemNum)}>
+                            <Button id="itemButton">
+                                {ds.getName(this.props.itemNum)} </Button>
+                            </LinkContainer>
                         </OverlayTrigger>
               </Row>
           </Col>

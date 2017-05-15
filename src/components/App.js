@@ -41,10 +41,6 @@ export default class App extends Component {
 
             {(this.props.children==null ? <MainPageComponents/> : this.props.children)}
 
-            <div>
-                <RenderContainer model="book"/>
-                <RenderContainer model="eraser"/>
-            </div>
         </div>
     );
   }

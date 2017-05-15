@@ -19,7 +19,7 @@ class DatabaseService {
        1: '/img/Apparel/placeholderT.jpg',
        2: '/img/Snacks/kitkat.png',
          3: '/img/Snacks/twizzlers.png',
-         4: '/img/Stationary/eraser-texture.png',
+         4: '/img/Stationary/eraser.png',
          5: '/img/Book/odyssey.png'
     }
 

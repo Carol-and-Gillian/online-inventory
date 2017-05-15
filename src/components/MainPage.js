@@ -20,7 +20,7 @@ export default class MainPageComponents extends Component{
         </Jumbotron>
 
             <Carousel className="carousel">
-                <LinkContainer to="/apparel/general">
+                <LinkContainer to="/apparel/">
                 <Carousel.Item>
                  <center>   <img height={500}
                                  alt="500x500" src="/img/Apparel/sweatshirt.png"/>
