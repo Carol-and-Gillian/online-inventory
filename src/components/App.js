@@ -40,7 +40,9 @@ export default class App extends Component {
         </Navbar>
 
             {(this.props.children==null ? <MainPageComponents/> : this.props.children)}
-
+            <RenderContainer model="book"/>
+            <RenderContainer model="Eraser"/>
+            <RenderContainer model="shirt"/>
         </div>
     );
   }

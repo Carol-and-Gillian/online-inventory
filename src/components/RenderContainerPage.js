@@ -7,7 +7,7 @@ import RenderContainer from "../Container/RenderContainer";
 export default class RenderContainerPage extends Component {
     render(){
         return(
-            <RenderContainer model={this.props.name}/>
+            <RenderContainer model="book"/>
         );
     }
 }

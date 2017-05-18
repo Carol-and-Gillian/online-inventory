@@ -14,10 +14,11 @@ export default class Routes extends Component {
             <Router history={browserHistory}>
                 <Route path="/" component={App}>
                     <IndexRoute to="/"/>
-                    <Route path=":id" component={Apparel}/>
+                    <Route path=":id" component={Apparel}>
                     <Route
-                        path="/apparel/:name"
+                        path="/:name"
                         component={RenderContainerPage}/>
+                    </Route>
                 </Route>
             </Router>
         );

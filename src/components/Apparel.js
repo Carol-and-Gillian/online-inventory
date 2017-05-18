@@ -4,6 +4,7 @@
 import React, {Component} from "react";
 import ItemList from "./ItemList";
 import {Row} from "react-bootstrap";
+import RenderContainer from "../Container/RenderContainer";
 
 export default class Apparel extends Component {
 

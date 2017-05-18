@@ -7,11 +7,10 @@ import "../../src/CSS/ItemList.css";
 import ds from "../../src/Services/DatabaseService";
 import {LinkContainer} from "react-router-bootstrap";
 
-
 export default class ItemList extends Component {
     render() {
         return (
-
+<div>
           <Col xs={6} md={3} id="item">
               <Row>
                           <Image className="itemPreview" src={ds.getImageRoute(this.props.itemNum)} circle />
@@ -30,6 +29,8 @@ export default class ItemList extends Component {
                         </OverlayTrigger>
               </Row>
           </Col>
+    {this.props.children}
+</div>
         );
     }
 }
